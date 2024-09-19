@@ -1,3 +1,5 @@
+import "./global.css"
+
 import React from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
 import { styled } from 'nativewind'

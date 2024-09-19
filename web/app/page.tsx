@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Home() {
   return (
     <div className="flex flex-col lg:items-center ">
-      <div className="h-[30rem] w-[30rem] rounded-full z-0 absolute blur-[165px] top-[-15rem] mx-auto bg-indigo-600 " />
+      <div className="h-[30rem] w-[30rem] rounded-full z-0 absolute blur-[160px] top-[-15rem] mx-auto bg-indigo-600 " />
       <Navbar />
       <div className="px-8 w-screen h-screen">
       <Hero/>

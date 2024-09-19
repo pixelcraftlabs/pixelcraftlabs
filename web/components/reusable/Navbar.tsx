@@ -1,4 +1,4 @@
-
+import { Menu } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -38,12 +38,12 @@ const Navbar = () => {
           </Link>
           <Link
             href="/sign-up"
-            className="bg-indigo-600 px-6 py-2 rounded-lg hover:text-indigo-600 transition-all"
+            className="bg-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-700 transition-all"
           >
             Get Started
           </Link>
         </div>
-
+        <Menu size={30} className="text-white lg:hidden cursor-pointer" />
       </div>
     </div>
   );

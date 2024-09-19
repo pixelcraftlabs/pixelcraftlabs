@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <div className='lg:text-center mt-[8.5rem] flex flex-col lg:items-center '>
-      <h1 className='text-[3.5rem] '>Turn Ideas<br/> Into <span className='text-indigo-700'>Software</span></h1>
+      <h1 className='text-[3.5rem] '>Turn Ideas<br/> Into <span className='text-indigo-600'>Software</span></h1>
       <h3 className='text-sm font-light mb-[2rem]'>Deploy ideas to scalable softwares. Transform ideas into seamless user experiences. <br/> Need a website?</h3>
       <HoverBorderGradient
         containerClassName="rounded-[1.5rem]"
